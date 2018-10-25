@@ -1,0 +1,63 @@
+.ListItem {
+  display: flex;
+  margin: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.ListItem__cell {
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+}
+
+.ListItem__imageWrapper {
+  width: 20%;
+}
+
+.ListItem__image {
+  width: 100%;
+  max-width: 320px;
+}
+
+.ListItem__description {
+  width: 50%;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.ListItem__dragHandleWrapper {
+  width: 10%;
+}
+
+.ListItem__dragHandle svg {
+  width: 36px;
+}
+
+.ListItem__editButtonWrapper {
+  width: 10%;
+}
+
+.ListItem__deleteButtonWrapper {
+  width: 10%;
+}
+
+.ListItem__dragHandle {
+  cursor: move;
+}
+
+.ListItem__icon {
+  width: 36px;
+  background: none;
+  border: none;
+}
+
+.ListItem__cell--action {
+  align-self: center;
+}
+
+.ListItem button {
+  cursor: pointer;
+}
